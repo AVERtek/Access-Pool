@@ -176,9 +176,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      </div>
      
  <div class="card"> 
-    <model-viewer loading="eager" src="Models/TEST HOLDER POOL SCENE FOR.glb" camera-controls  
+    <model-viewer loading="eager" src="Models/FULL LENGTH SCALED A LITTLE.glb?CAMILLE_POOL_FINAL_EDITS.wav" camera-controls  
                   camera-orbit="0deg 22.5deg 75%" autoplay animation-name="" id="model-viewer" id="reveal" exposure="1" shadow-intensity="1" ar ar-modes="scene-viewer webxr quick-look" ios-src="Models/SECOND_FLOORUSDZ.usdz"
-                    alt="NOHO WEST" auto-rotate-delay="0" ar-scale="auto" slot= "progress-bar" style="z-index: 1; width: 100%; height: 480px; position: static; ">
+                    alt="Access Pool" auto-rotate-delay="0" ar-scale="auto" slot= "progress-bar" style="z-index: 1; width: 100%; height: 480px; position: static; ">
                     <button slot="ar-button" 
                     style="z-index: 9; background-color: #ffffff; border-radius: 8px; border: 1 px solid white; position: absolute; top: 2px; right: 0; height: 40px; width: auto; ">
 
@@ -186,7 +186,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                
   </model-viewer>
     </div>
-   
+ 
+   <section class="attribution">
+        <div>
+          <span>
+            <h1 style="text-align: center;" markdown="1"><b style="color:#FFFFFF;"><p style="font-family:Avenir Next LT Pro">Meet Camille</b>
+              <p align="center">
+              <span>
+              <audio controls autoplay loop id="sound">
+                <source src="Sound/CAMILLE_POOL_FINAL_EDITS.wav"/>
+              </audio
+            ></span> 
+             </p>
+            </span>
+         </div>
+   </section>
+   <script>    
+        window.addEventListener("load", () => {
+          Sync("#model-viewer", "#sound");
+        });
+      </script>   
+   <div class="centerImage">   
+   <button onclick="location.href='https://avertek.github.io/Access-Camille/'" type="button" slot="" 
+                    style="z-index: 9; background-color: #e79b6e; border-radius: 8px; border: 1 px solid white; position: static; height: 35px; width: auto;
+                          color:#000000; font-family:Avenir Next LT Pro"><strong>MEET CAMILLE</strong>
+       </button> 
+         </div>
+         <br><br>
      
   <div class="card">
      <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="https://avertek.github.io/Access-Floorplan/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://avertek.github.io/Access-Floorplan/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#e79b6e;"><b> <ins>CAMILLE'S 4D/AR FLOORPLAN</ins></b></b></h2></a></p></a></h2>
